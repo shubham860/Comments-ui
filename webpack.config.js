@@ -1,6 +1,9 @@
 const path = require("path");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 
+/**
+ * @type {import('webpack').Configuration}
+ */
 module.exports = {
   output: {
     path: path.join(__dirname, "/dist"), // the bundle output path
@@ -11,6 +14,7 @@ module.exports = {
       template: "public/index.html", // to import index.html file inside index.js
     }),
   ],
+  devtool: 'cheap-module-source-map',
   devServer: {
     port: 3000, // you can change the port
   },
