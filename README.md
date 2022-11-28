@@ -1,5 +1,5 @@
 # Comments-ui
 
-#Start project
-#npm install or yarn
-#npm start or yarn start
+##tart project
+###m install or yarn
+### start or yarn start
